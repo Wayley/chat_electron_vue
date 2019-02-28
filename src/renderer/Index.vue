@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <p class="wz-welcome">Welcome {{name}}</p>
-
+    <p class="test">TEST</p>
     <button @click="openLink(githubProfile)">打开Github</button>
     <landing-page></landing-page>
   </div>
@@ -29,5 +29,8 @@ export default {
 $brand-primary: #48abaf;
 .wz-welcome {
   color: $brand-primary;
+}
+.test {
+  font-size: 24px;
 }
 </style>
